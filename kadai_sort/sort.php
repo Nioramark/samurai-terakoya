@@ -13,7 +13,7 @@
         $num = array(15, 4, 18, 23, 10);
         
         // ソート関数の定義
-        function sortNumbers($numbers, $order) {
+        function sortNumbers(&$numbers, $order) {
             if ($order === TRUE) {
                 sort($numbers);
                 echo "昇順にソートします"."<br>";
