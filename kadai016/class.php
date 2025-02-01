@@ -61,7 +61,8 @@
         // インスタンス$animalの各プロパティの値を出力する
         print_r($animal);
         echo "<br>";
-
+        
+        // 各プロパティの値を出力
         echo $food->show_price() . '<br>';
         echo $animal->show_height() . '<br>';
       ?>
